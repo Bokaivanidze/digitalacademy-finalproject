@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+
+}
+.header-logo{
+    width: 30px;
+    /*margin-top: 15px;
+    margin-left: 30px;*/
+}
+.logo-slogan{
+    padding-top: 5px;
+    padding-left: 30px;
+    color: black;
+}
+header{
+    display: flex;
+    height: 10vh;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+
+}
+.nav-link{
+    display: flex;
+    padding: 40px;
+    
+}
+.nav-a{
+    color: black;
+}
+.logo-container,.nav-links{
+    display: flex;
+}
+.logo-container{
+    flex: 1;
+}
+.navigation{
+    flex: 0;   
+}
+.presentation{
+    display: flex;
+}
