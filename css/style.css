@@ -44,4 +44,50 @@ header{
 }
 .presentation{
     display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+}
+.cover-img{
+    height: 60vh;
+    filter: drop-shadow(0px 10px 5px black);
+    animation: drop 1.5s ease;
+}
+.cover-h1{
+    font-size: 44px;
+    width: 400px;
+    background: linear-gradient(to right,#494964,#6f6f89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+.cover-p{
+    
+    font-size: 22px;
+    color: #585772;
+
+}
+.readmore{
+    display: flex;
+    background: linear-gradient(to right,#494964,#6f6f89);
+    color:white;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    border: none;
+    
+}
+.cover-readmore{
+    margin-top: 10px;
+}
+@keyframes drop{
+    0%{
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }

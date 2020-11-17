@@ -1,0 +1,22 @@
+@media screen and (max-width:1024px){
+    .presentation{
+        flex-direction: column;
+    }
+    .introduction{
+        margin-top: 5vh;
+        text-align: center;
+    }
+    .cover-h1{
+        font-size: 30px;
+    }
+    .cover-p{
+        font-size: 15px;
+    }
+    .cover-readmore{
+        padding: 10px 0px 0px 0px;
+        align-items: center;
+    }
+    .banner-img{
+        width: auto;
+    }
+}
