@@ -222,3 +222,75 @@ header{
 .social-menu ul li:nth-child(5) a:hover {
     background-color: #0077B5;
 }
+/*contact page*/
+.contact-info{
+    color: #3D58A6;
+    font-size: 20px;
+}
+.street{
+    color: #808080;
+    font-size: 16px;
+}
+.tel{
+    color: #808080;
+    font-size: 16px;
+}
+.mail{
+    color: #808080;
+    font-size: 16px;
+}
+.map{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+    margin-left: 39px;
+    margin-bottom: 50px;
+    
+}
+.contact-panel{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 50px;
+    
+}
+.container-contact{
+    width: 1170px;
+    margin-left: 96px;
+}
+.section-wraper{
+    background-color: #E6E6E6;
+    margin-top: 30px;
+}
+.form-wraper {
+    margin-left: 100px;
+    margin-top: 50px;
+	width: 730.26px;
+}
+.input-wraper {
+	width: 100%;
+	font-size: 22px;
+	padding: 11px 200px 20.60px 29.60px;
+	margin-top: 11.9px;
+	margin-bottom: 11.9px;
+}
+.input-wraper::placeholder {
+	font-size: 23px;
+}
+.input-wraper:focus,
+.textarea-wraper:focus {
+	outline: none;
+}
+.button-bt{
+    border: none;
+	background-color: #2E2E2E;
+	width: 100px;
+	height: 40px;
+	color: white;
+	font-size: 21px;
+	margin-top: 40.80px;
+	margin-bottom: 228.80px;
+}
+.video-wraper {
+	justify-content: space-around;
+	align-items: center;
+}
