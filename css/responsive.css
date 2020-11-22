@@ -21,7 +21,7 @@
         align-items: center;
     }
     .cover-img{
-         width: 400px;
+         width: 600px;
     }
     .second-section{
         flex-direction: column;
@@ -38,16 +38,16 @@
         flex-direction: column;
     }
     .colage-img1{
-        width: 100px;
+        width: 200px;
     }
     .colage-img2{
-        width: 100px;
+        width: 200px;
     }
     .colage-img3{
-        width: 100px;
+        width: 200px;
     }
     .colage-img4{
-        width: 100px;
+        width: 200px;
     }
     .box1{
         width: 100px;
