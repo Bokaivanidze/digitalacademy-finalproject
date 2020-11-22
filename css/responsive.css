@@ -257,7 +257,7 @@
         margin-top: 2vh;
         text-align: center;
     }
-    .navigation,nav-link{
+    .navigation,nav-links{
         flex: none;
         flex-direction: column;
     }
