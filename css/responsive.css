@@ -66,6 +66,74 @@
     .footer-box{
         width: 300px;
     }
+    @media screen and (max-width:1280px){
+        .presentation{
+            flex-direction: column;
+        }
+        .introduction{
+            margin-top: 5vh;
+            text-align: center;
+        }
+        .readmore{
+            margin: auto;
+            margin-bottom: 10px;
+        }
+        .cover-h1{
+            font-size: 30px;
+        }
+        .cover-p{
+            font-size: 15px;
+        }
+        .cover-readmore{
+            padding: 10px 0px 0px 0px;
+            align-items: center;
+        }
+        .cover-img{
+             width: 600px;
+        }
+        .second-section{
+            flex-direction: column;
+        }
+        .colage{
+            margin-top: 5vh;
+            text-align: center;
+        }
+        .future-technology{
+            font-size: 30px;
+        }
+        
+        .colage-imgs{
+            flex-direction: column;
+        }
+        .colage-img1{
+            width: 200px;
+        }
+        .colage-img2{
+            width: 200px;
+        }
+        .colage-img3{
+            width: 200px;
+        }
+        .colage-img4{
+            width: 200px;
+        }
+        .box1{
+            width: 100px;
+            flex-direction: column;
+            margin: auto;
+        }
+        .box1-img{
+            width: 100px;
+        }
+        .box1 h1{
+            font-size: 12px;
+        }
+        .box1 p{
+            font-size: 10px;
+        }
+        .footer-box{
+            width: 300px;
+        }
 @media screen and (max-width:800px){
     .presentation{
         flex-direction: column;
