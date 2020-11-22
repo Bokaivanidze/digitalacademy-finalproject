@@ -21,7 +21,7 @@
         align-items: center;
     }
     .cover-img{
-         width: 450px;
+         width: 400px;
     }
     .second-section{
         flex-direction: column;
@@ -89,7 +89,7 @@
         align-items: center;
     }
     .cover-img{
-        width: 400px;
+        width: 300px;
     }
     .second-section{
         flex-direction: column;
