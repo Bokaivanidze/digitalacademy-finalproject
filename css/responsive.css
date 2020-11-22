@@ -258,7 +258,7 @@
         text-align: center;
     }
     .navigation,nav-link{
-        width: 60%;
+        flex: none;
         flex-direction: column;
     }
     .readmore{
