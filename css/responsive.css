@@ -258,7 +258,8 @@
         text-align: center;
     }
     .navigation,nav-links{
-        flex: none;
+        width: 50%;
+        margin: auto;
         flex-direction: column;
     }
     .readmore{
