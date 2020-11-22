@@ -257,10 +257,18 @@
         margin-top: 2vh;
         text-align: center;
     }
-    .navigation,nav-links{
+    header{
+        display: flex;
+        height: 10vh;
         width: 50%;
         margin: auto;
-        flex-direction: column;
+        align-items: center;
+    
+    }
+    .nav-link{
+        display: flex;
+        padding: 10px;
+        
     }
     .readmore{
         margin: auto;
