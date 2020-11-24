@@ -11,10 +11,13 @@
         margin-bottom: 10px;
     }
     .cover-h1{
-        font-size: 30px;
+        align-items: center;
+        font-size: 40px;
     }
     .cover-p{
-        font-size: 15px;
+        text-align: center;
+        font-size: 25px;
+        width: 300px;
     }
     .cover-readmore{
         padding: 10px 0px 0px 0px;
