@@ -206,12 +206,14 @@
         
         .colage-imgs{
             flex-direction: column;
+            
         }
         .second-section{
             width: 320px;
         }
         .three-section{
             width: 320px;
+            flex-direction: column;
         }
         .box1{
             width: 40px;
@@ -222,10 +224,10 @@
             width: 40px;
         }
         .box1 h1{
-            font-size: 7px;
+            font-size: 15px;
         }
         .box1 p{
-            font-size: 5px;
+            font-size: 10px;
         }
         .footer-panel{
             width: 100%;
