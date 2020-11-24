@@ -15,9 +15,9 @@
         font-size: 40px;
     }
     .cover-p{
-        text-align: center;
-        font-size: 25px;
-        width: 300px;
+        align-items: center;
+        font-size: 30px;
+        width: 350px;
     }
     .cover-readmore{
         padding: 10px 0px 0px 0px;
