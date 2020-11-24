@@ -69,4 +69,12 @@
     .footer-box{
         width: 300px;
     }
-  
+    @media screen and (max-width:320px){
+        
+        .social-menu ul li a {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: white;
+            text-align: center;
+        }
