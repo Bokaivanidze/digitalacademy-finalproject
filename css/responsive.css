@@ -22,7 +22,7 @@
         align-items: center;
     }
     .cover-img{
-       width: 500px;
+       width: 600px;
     }
     .second-section{
         flex-direction: column;
@@ -83,6 +83,7 @@
     .cover-h1{
         align-items: center;
         font-size: 40px;
+        width: 350px;
     }
     .cover-p{
         align-items: center;
