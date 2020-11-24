@@ -340,7 +340,7 @@
         background-color: white;
         text-align: center;
     }
-    @media screen and (max-width: 1440px){
+    @media (max-width: 1440px){
         .presentation{
             flex-direction: column;
         }
@@ -366,7 +366,7 @@
             align-items: center;
         }
         .cover-img{
-            width: 400px;
+            width: 600px;
             padding: 20px;
         }
         .second-section{
