@@ -67,14 +67,106 @@
         font-size: 10px;
     }
     .footer-box{
-        width: 300px;
+        width: 420px;
     }
-    @media screen and (max-width:320px){
+    @media (max-width:320px){
+        .presentation{
+            flex-direction: column;
+        }
+        .introduction{
+            margin-top: 2vh;
+            text-align: center;
+        }
+        .header-logo{
+            display: none;
+        }
+        .nav-a{
+            display: none;
+        }
+        header{
+            display: none;
+            display: flex;
+            height: 10vh;
+            width: 50%;
+            margin: auto;
+            align-items: center;
         
+        }
+        .nav-link{
+            display: flex;
+            padding: 10px;
+            
+        }
+        .cover-readmore{
+            width: 70px;
+        }
+        .readmore{
+            
+            margin: auto;
+            margin-bottom: 10px;
+        }
+        .cover-h1{
+            width: 280px;
+            font-size: 20px;
+        }
+        .cover-p{
+           
+            width: 300px;
+            font-size: 15px;
+        }
+        .cover-readmore{
+            padding: 3px 0px 0px 0px;
+            align-items: center;
+        }
+        .cover-img{
+            width: 200px;
+        }
+        .second-section{
+            flex-direction: column;
+        }
+        .colage{
+            margin-top: 2vh;
+            text-align: center;
+        }
+        .future-technology{
+            font-size: 13px;
+        }
+        
+        .colage-imgs{
+            flex-direction: column;
+        }
+        .box1{
+            width: 40px;
+            flex-direction: column;
+            margin: auto;
+        }
+        .box1-img{
+            width: 40px;
+        }
+        .box1 h1{
+            font-size: 7px;
+        }
+        .box1 p{
+            font-size: 5px;
+        }
+        .footer-panel{
+            width: 100%;
+        }
+        .social-menu ul {
+            padding-top: 200px;
+            margin-left: 30px;
+        }
+        .social-menu ul li {
+            list-style: none;
+            margin: 0 10px;
+        }
+        .social-menu ul li .fa {
+            font-size: 15px;
+            line-height: 30px   
+        }
         .social-menu ul li a {
             width: 30px;
             height: 30px;
             border-radius: 50%;
             background-color: white;
             text-align: center;
-        }
